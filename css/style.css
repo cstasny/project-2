@@ -8,8 +8,8 @@
     font-family: 'Bangers', cursive;
     min-height: 100vh;
     min-width: 370px;
-    background-image: linear-gradient(135deg, #585756, #f15209 32%,  #1ab649 52%,
-      #154dc5 77%, #585756, #585756);
+    background-image: linear-gradient(135deg, #bdb6af, #f15209 18%,  #08b808 48%,
+      #154dc5 90%, #bdb6af);
 }
 
 header h1 {
@@ -72,8 +72,8 @@ form .button:hover {
 .results img {
     margin: 5px;
     border: black 2px solid;
-    height: 250px;
     width: 250px;
+   height: 250px;
 }
 
 
