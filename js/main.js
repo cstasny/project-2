@@ -46,7 +46,7 @@ function getData() {
                 console.log("success got data", response);
                 var jiffs = response.data;
                 for (i in jiffs) {
-                    $(".results").append("<img src='" + jiffs[i].images.original.url + "' style='width:250px;'/>");
+                    $(".results").append("<img src='" + jiffs[i].images.original.url + "'/>");
                 }
             })
         }
