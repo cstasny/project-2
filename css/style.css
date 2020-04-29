@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
  body {
@@ -16,7 +15,7 @@ header h1 {
     padding: 20px;
     letter-spacing: 0.1em;
     text-decoration: underline;
-    
+    color: #333;
 } 
 
 form * {
@@ -31,7 +30,6 @@ form .button {
      font-size: 14px;
      border: 1px solid black;
      color: #333;
-     
 }
 
 ::placeholder {
@@ -76,10 +74,3 @@ form .button:hover {
     width: 250px;
    height: 250px;
 }
-
-
-
-footer {
-    color: #333;
-    text-decoration: none;
-} 
