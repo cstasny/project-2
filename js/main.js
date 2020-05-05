@@ -9,7 +9,7 @@ $(function () {
 });
 function getData() {
     var input = $(".search").val();
-            var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=8i7DkkKJ0SiHMEDMfoceSri0ATmQmmGw&limit=30");
+            var xhr = $.get("https://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=8i7DkkKJ0SiHMEDMfoceSri0ATmQmmGw&limit=30");
             xhr.done(function (response) {
                 console.log("success got data", response);
                 var jiffs = response.data;
