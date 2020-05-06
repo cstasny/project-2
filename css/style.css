@@ -6,7 +6,7 @@
  body {
     font-family: 'Bangers', cursive;
     min-height: 100vh;
-    min-width: 370px;
+    min-width: 250px;
     background-image: linear-gradient(135deg, #f15209 18%,  #08b808 55%,
       #154dc5 90%);
 }
@@ -37,8 +37,8 @@ form .button {
 }
 
 form .search {
-    width: 60%;
-    min-width: 400px;
+    width: 40%;
+    min-width: 275px;
     max-width: 600px;
 }
 
@@ -51,7 +51,7 @@ form .search:focus {
 
 form .button {
     cursor: pointer;
-    width: 80px;
+    width: 75px;
 }
 
 form .button:hover {
